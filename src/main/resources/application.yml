@@ -1,0 +1,27 @@
+server:
+  port: 5000
+discord:
+  token: MTA0ODUxOTk4OTc1OTU4NjM1NQ.G9wlJx.uzBH_gF5MuRtGhZFJKUvjk-TLNruUo2fV2nL40
+  channelId: 1048529505909735478
+  guildId: 1048529505909735475
+spring:
+  flyway:
+    baseline-on-migrate: true
+    placeholderReplacement: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/first_bot_db
+    username: root
+    password: Gg7771999
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jakub.badzioch.main@gmail.com
+    password: znlnboojwymcyhkt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
